@@ -10,9 +10,14 @@ from threading import Thread
 import random
 import time
 import socket
-
+import os,sys
 
 # def
+os.system("clear")
+print("З А Г Р У З К А....")
+time.sleep(1.5)
+os.system("clear")
+print()
 url = input("Url | ==> ")
 thread = int(input("Time | ==> "))
 
